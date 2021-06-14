@@ -42,6 +42,8 @@ public class MyResource {
     public Response leerQueryString(@QueryParam("referencia")  int ref) {
     	return Response.status(200).entity("Sumamos 100 a la ref. " + (ref + 100)).build();
     }
+    
+    
 
 
 }
